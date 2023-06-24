@@ -1,7 +1,6 @@
 import Swal from "sweetalert2";
 import "./App.css";
 import React, { useState } from "react";
-//import swal from 'sweetalert2';
 
 function App() {
   
@@ -105,36 +104,3 @@ function App() {
 }
 
 export default App;
-
-
-  //OLD Logic
-
-  // let calcBmi = (e) => {
-
-  //   e.preventDefault();
-
-  //   if(weight===0 || height===0)
-  //   {
-  //     alert('Please Enter a valid Weight & Height!!')
-  //   }
-
-  //   else{
-  //     let bmi = (weight/(height*height)*703)
-  //     setBmi(bmi.toFixed(1))
-
-  //     //
-
-  //     if(bmi<25) {
-  //       setMessage('You are underweight')
-  //     }
-
-  //     else if (bmi>=25 && bmi <30){
-  //       setMessage('You are a Healthy weight')
-  //     }
-
-  //     else{
-  //       setMessage('You are overweight')
-  //     }
-  //   }
-  // }
-
