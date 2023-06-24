@@ -4,6 +4,10 @@ import React, { useState } from "react";
 //import swal from 'sweetalert2';
 
 function App() {
+   const [windowSize, setWindowSize] = useState([
+    window.innerWidth,
+    window.innerHeight,
+  ]);
 
   const [weight, setWeight] = useState(0);
   const [height, setHeight] = useState(0);
